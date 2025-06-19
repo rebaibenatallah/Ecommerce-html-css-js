@@ -583,6 +583,12 @@ form.search button:hover {
   .dpt-menu .has-child:hover .mega {
     display: flex;
   }
+  .dpt-menu .has-child .icon-small {
+    transition: all 0.3s;
+  }
+  .dpt-menu .has-child:hover .icon-small {
+    rotate: -180deg;
+  }
 
   /* .dpt-menu .has-child:nth-child(4) > ul {
      display: block; 
